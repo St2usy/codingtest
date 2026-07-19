@@ -1,5 +1,3 @@
-# Codingtest 기록용
-
 ## programmers 기반
 
 <details>
