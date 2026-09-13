@@ -33,7 +33,7 @@ public class tranmission_tower {
         for (int next : adjlist[start]) {
             if (!visited[next]) {
                 int cnt = dfs(next);
-                answer = Math.min(answer, Math.abs(N - cnt * 2));
+                answer = Math.min(answer, Math.abs(N - cnt * 2)); //
                 sum += cnt;
             }
         }
