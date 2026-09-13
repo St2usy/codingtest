@@ -54,7 +54,7 @@
             요지는 재귀 함수가 스택 처럼 쌓일 때 반환 값이 어떻게 처리 되는가가 이해가 안 됐다.
             가장 마지막(즉 스택의 가장 위)에 호출된 함수가 먼저 계산된다.
 
-<summary>4. array</summary>
+    <summary>4. array</summary>
     배열의 이해
 
         - 예제
@@ -76,7 +76,7 @@
             또 list의 maxvalue를 구하기위한 Collections.max() 메서드 활용
             Arraylist를 프리미티브 타입 배열로 역변환등 다양한 테크닉을 구현했다.
 
-<summary>3. sort</summary>
+    <summary>3. sort</summary>
     정렬의 이해, Arrays.sort()의 구현 알고리즘을 조사하던 중 정렬 주요 알고리즘을 공부 했다.
 
         -  예제
