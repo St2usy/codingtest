@@ -79,6 +79,35 @@
             또 list의 maxvalue를 구하기위한 Collections.max() 메서드 활용
             Arraylist를 프리미티브 타입 배열로 역변환등 다양한 테크닉을 구현했다.
 
+        4. q6 실패율
+            Map을 활용하여 인덱스와 실패율 저장. 주어진 데이터셋을 인덱스로 활용하기 위해
+            int[] challenger = new int[N+2], challenger[stages[i]] +=1 등의 코드 라인 활용
+            Map을 entryset을 활용해 정렬 후 배열로 반환하는 테크닉 활용
+
+        5. q7 방문길이
+            좌표계에서 방문길이를 반환해야함. 방문 좌표를 저장하는게 아닌 방문 거리를 저장해야한다.
+            String을 활용해 "x,y -> nx, ny" and "nx,ny -> x, y" 등으로 선분을 저장한다.
+            방문좌표를 저장하려고 잘못 접근했지만 좋은 성과도 있었다.
+            Object class의 메서드인 eqauls와 hashcode를 Override해 객체간 비교를 가능케 하는 매커니즘을 공부했따.
+
+</details>
+
+<details>
+    <summary>6. Deque</summary>
+    스택, 큐등 Deque을 활용한 컬렉션 이해 및 응용 문제 풀이
+
+        - 예제
+        1. q8 올바른 좌표
+            Stack을 활용해, 짝지어 pop해버림.
+
+        2. q9 10진수르 2진수로 변환하기
+            Stack을 활용해 10진수를 2진수로 변환.
+            비어 있는 String에 stack을 순회하여(pop을 활용) result 값 반환
+
+        3. q10 괄호 회전하기
+            
+
+
 </details>
 
 <details>
