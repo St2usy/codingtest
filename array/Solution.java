@@ -4,10 +4,9 @@ import java.util.Arrays;
 
 public class Solution {
     public static void main(String[] args) {
-        q4 sol = new q4();
-        int[] arr = { 1, 3, 2, 4, 2 };
-
-        System.out.println(Arrays.toString(sol.solution(arr)));
-
+        q5 sol = new q5();
+        int[][] arr1 = { { 1, 4 }, { 3, 2 }, { 4, 1 } };
+        int[][] arr2 = { { 3, 3 }, { 3, 3 } };
+        System.out.println(Arrays.deepToString(q5.solution(arr1, arr2)));
     }
 }
