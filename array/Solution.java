@@ -1,5 +1,7 @@
 package array;
 
+import java.util.*;
+
 public class Solution {
     public static void main(String[] args) {
         q5 sol = new q5();
